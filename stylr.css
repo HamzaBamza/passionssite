@@ -1,0 +1,120 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col > :last-child {
+  margin-top: auto;
+}
+
+html {
+  background-color: white;
+}
+
+/************** fonts *************/
+
+@font-face {
+  font-family: "loraregular";
+  src: url(fonts/lora-variablefont_wght-webfont.woff2) format("woff2"), url(fonts/lora-variablefont_wght-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #f34a4a;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff5b5b;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffa500;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(240, 65, 65, 0.1);
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ff5858;
+  color: #fff;
+  font-size: 0.9rem;
+}
